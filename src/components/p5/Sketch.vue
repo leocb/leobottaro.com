@@ -68,6 +68,7 @@ function loadSketch(projectName) {
 
 <style lang="scss">
 iframe {
+  touch-action: auto;
   border: none;
   height: 100%;
   margin-left: 0px;

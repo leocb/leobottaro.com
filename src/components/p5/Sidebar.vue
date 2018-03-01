@@ -85,7 +85,7 @@ a {
     color: #555;
   }
   &:active {
-    color: #f07;
+    color: #0d47a1;
   }
 }
 .sidebar {
@@ -111,7 +111,7 @@ a {
   //   left: 0;
   // }
   .project-link--active {
-    color: #f07;
+    color: #0d47a1;
   }
   .staticBtn {
     color: #ccc;
@@ -162,12 +162,12 @@ a {
     color: #999;
   }
   .twitter {
-    color: #f07;
+    color: #0d47a1;
   }
 }
 .link-split {
   display: block;
-  color: #f07;
+  color: #0d47a1;
 }
 .split-view--left .sidebar {
   left: -175px;

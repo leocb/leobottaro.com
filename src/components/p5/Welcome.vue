@@ -21,11 +21,10 @@ export default {}
 // https://material.io/color/#!/?view.left=0&view.right=0&secondary.color=0D47A1&primary.color=EEEEEE
 .wrapper {
   margin: auto;
-  display: inline-block;
-  padding-top: 70px;
   padding-left: 70px;
   text-align: left;
   overflow-y: scroll;
+  overflow-wrap: break-word;
   width: 100%;
   height: 100%;
 
@@ -33,6 +32,9 @@ export default {}
     font-size: 80px;
     color: #0d47a1;
     margin-bottom: 0px;
+    @media screen and (max-width: 640px) {
+      font-size: 45px;
+    }
   }
 
   code {

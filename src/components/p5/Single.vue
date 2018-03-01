@@ -25,5 +25,8 @@ export default {
 <style lang="scss">
 .single-view {
   height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 </style>
