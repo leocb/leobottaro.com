@@ -1,53 +1,42 @@
-<template>
-  <div id="app">
-    <header>
-      <span>Leo Bottaro</span>
-    </header>
-    <main>
-      <router-view></router-view>
-    </main>
-  </div>
+<template lang="pug">
+  router-view
 </template>
 
 <script>
+import VueRouter from 'vue-router'
+import Sidebar from './components/p5/Sidebar.vue'
+import Sketch from './components/p5/Sketch.vue'
+import Vue from 'vue'
+Vue.use(VueRouter)
+
 export default {
-  name: 'app'
+  data() {
+    return {
+      activeProject: ''
+    }
+  },
+  components: {
+    Sidebar,
+    Sketch
+  }
 }
 </script>
 
-<style>
+<style lang="scss">
+html,
 body {
   margin: 0;
-}
-
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: rgba(0, 0, 0, 0.87);
-}
-
-main {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  font-family: 'Avenir Next', 'Avenir', Helvetica, 'Helvetica Neue', Futura,
+    Arial;
   text-align: center;
-  margin-top: 40px;
+  overflow: hidden;
 }
-
-header {
-  margin: 0;
-  height: 56px;
-  padding: 0 16px 0 24px;
-  background-color: #004d40;
-  color: rgba(255, 255, 255, 0.92);
-}
-
-header span {
-  display: block;
-  position: relative;
-  font-size: 20px;
-  line-height: 1;
-  letter-spacing: 0.02em;
-  font-weight: 400;
-  box-sizing: border-box;
-  padding-top: 16px;
+.content {
+  width: 100%;
+  height: 100%;
 }
 </style>
