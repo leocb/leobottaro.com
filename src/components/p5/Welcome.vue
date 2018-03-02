@@ -52,14 +52,14 @@ export default {}
   }
 
   h3 {
-    color: rgba(0, 0, 0, 0.85);
+    color: rgba(0, 0, 0, 0.75);
     margin-top: 40px;
     margin-bottom: 0px;
   }
 
   ol {
     font-size: 16px;
-    color: rgba(0, 0, 0, 0.85);
+    color: rgba(0, 0, 0, 0.65);
     padding-left: 0px;
     margin-top: 0;
   }

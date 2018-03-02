@@ -32,7 +32,7 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  background-color: #fff;
+  background-color: #ffffff;
   font-family: 'Avenir Next', 'Avenir', Helvetica, 'Helvetica Neue', Futura,
     Arial;
   text-align: center;

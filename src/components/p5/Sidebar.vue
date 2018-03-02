@@ -78,11 +78,11 @@ export default {
 
 <style lang="scss">
 a {
-  color: #999;
+  color: rgba(0, 0, 0, 0.65);
   text-decoration: none;
   &:hover,
   &:active {
-    color: #555;
+    color: rgba(0, 0, 0, 0.45);
   }
   &:active {
     color: #0d47a1;
@@ -92,7 +92,7 @@ a {
   position: absolute;
   z-index: 10;
   top: 0;
-  background-color: #f5f5f5;
+  background-color: #eeeeee;
   width: 220px;
   height: 100%;
   text-align: left;
@@ -101,23 +101,20 @@ a {
   h2 {
     margin-top: 10px;
     padding-left: 30px;
-    color: #333;
+    color: rgba(0, 0, 0, 0.8);
   }
   ul {
     list-style: none;
     padding-left: 30px;
   }
-  // &.sidebar--active {
-  //   left: 0;
-  // }
   .project-link--active {
     color: #0d47a1;
   }
   .staticBtn {
-    color: #ccc;
+    color: rgba(0, 0, 0, 0.35);
     font-size: 15px;
-    .active {
-      color: #aaa;
+    &.active {
+      color: #5472d3;
     }
   }
 }
@@ -159,7 +156,7 @@ a {
   padding-left: 30px;
   p {
     margin-top: 0;
-    color: #999;
+    color: rgba(0, 0, 0, 0.45);
   }
   .twitter {
     color: #0d47a1;
@@ -192,7 +189,7 @@ a {
   padding-right: 30px;
 }
 .sidebar h2 a {
-  color: #333;
+  color: rgba(0, 0, 0, 0.8);
 }
 .split-view--left .sidebar ul {
   list-style: none;
